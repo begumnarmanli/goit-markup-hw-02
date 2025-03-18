@@ -1,162 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Homework_2_3</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
       <h2>
-        <a href="#">WebStudio</a>
+        <a href="#"
+          ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
+        >
       </h2>
       <nav>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
+        <a href="#">Studio</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contacts</a>
       </nav>
-      <p><a href="info@devstudio.com">info@devstudio.com</a></p>
-      <p><a href="+110001111111">+11 (000) 111-11-11</a></p>
+      <div class="contact">
+        <p><a class="mail" href="info@devstudio.com">info@devstudio.com</a></p>
+        <p><a class="phone" href="+110001111111">+11 (000) 111-11-11</a></p>
+      </div>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
-      <section>
-        <h2>Effective Solutions for Your Business</h2>
+      <section class="section-one">
+        <h2>
+          Effective <br />
+          Solutions <br />
+          for Your Business
+        </h2>
         <button type="button">Order Service</button>
       </section>
 
-      <section>
-        <h1>Our features</h1>
-        <ul>
-          <li>
-            <h2>Strategy</h2>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h2>Punctuality</h2>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h2>Diligence</h2>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h2>Technologies</h2>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Our Features</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>We develop effective business strategies for growth.</p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>We always meet deadlines and deliver on time.</p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>Our team works with dedication and precision.</p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>We use the latest technologies to drive innovation.</p>
-          </li>
-        </ul>
+      <section class="section-two">
+        <div>
+          <h2>Strategy</h2>
+          <p>
+            Our goal is to identify the business problem to walk away with the
+            perfect and creative solution.
+          </p>
+        </div>
+        <div>
+          <h2>Punctuality</h2>
+          <p>
+            Bring the key message to the brand's audience for the best price
+            within the shortest possible time.
+          </p>
+        </div>
+        <div>
+          <h2>Diligence</h2>
+          <p>
+            Research and confirm brands with the strongest digital growth
+            opportunities and minimize risk.
+          </p>
+        </div>
+        <div>
+          <h2>Technologies</h2>
+          <p>
+            Design practice focused on digital experiences. We bring forth a
+            deep passion for problem-solving.
+          </p>
+        </div>
       </section>
 
-      <section>
+      <section class="section-three">
         <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="images/Team_Card_1.jpg"
-              alt="Mark Guerrero - Product Designer"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+        <ul class="team-container">
+          <li class="team-member">
+            <img src="./images/team_card_1.jpg" width="264" alt="Mark Guerrero - Product Designer" />
           </li>
-          <li>
-            <img
-              src="images/Team_Card_2.jpg"
-              alt="Tom Ford - Frontend Developer"
-            />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+          <li class="team-member">
+            <img src="./images/team_card_2.jpg" width="264" alt="Tom Ford - Frontend Developer" />
           </li>
-          <li>
-            <img
-              src="images/Team_Card_3.jpg"
-              alt="Camilla Garcia - Marketing"
-            />
-            <h3>Camilla Garcia</h3>
-            <p>Marketing</p>
+          <li class="team-member">
+            <img src="./images/team_card_3.jpg" width="264" alt="Camilla Garcia - Marketing" />
           </li>
-          <li>
-            <img
-              src="images/Team_Card_4.jpg"
-              alt="Daniel Wilson - UI Designer"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="team-member">
+            <img src="./images/team_card_4.jpg" width="264" alt="Daniel Wilson - UI Designer" />
           </li>
         </ul>
       </section>
-
-      <section>
+      
+      <section class="section-four">
         <h2>Our Portfolio</h2>
-
-        <img src="images/Project_Card_1.jpg" alt="Banking App" />
-        <h3>Banking App</h3>
-        <p>App</p>
-
-        <img src="images/Project_Card_2.jpg" alt="Cashless Payment" />
-        <h3>Cashless Payment</h3>
-        <p>Marketing</p>
-
-        <img src="images/Project_Card_3.jpg" alt="Meditation App" />
-        <h3>Meditation App</h3>
-        <p>App</p>
-
-        <img src="images/Project_Card_4.jpg" alt="Taxi Service" />
-        <h3>Taxi Service</h3>
-        <p>Marketing</p>
-
-        <img src="images/Project_Card_5.jpg" alt="Screen Illustrations" />
-        <h3>Screen Illustrations</h3>
-        <p>Design</p>
-
-        <img src="images/Project_Card_6.jpg" alt="Online Courses" />
-        <h3>Online Courses</h3>
-        <p>Marketing</p>
+        <ul class="portfolio-list">
+          <li><img src="./images/project_card_1.jpg" width="360" alt="Banking App" /></li>
+          <li><img src="./images/project_card_2.jpg" width="360" alt="Cashless Payment" /></li>
+          <li><img src="./images/project_card_3.jpg" width="360" alt="Meditation App" /></li>
+          <li><img src="./images/project_card_4.jpg" width="360" alt="Taxi Service" /></li>
+          <li><img src="./images/project_card_5.jpg" width="360" alt="Screen Illustrations" /></li>
+          <li><img src="./images/project_card_6.jpg" width="360" alt="Online Courses" /></li>
+        </ul>
       </section>
+      
     </main>
     <!-- FOOTER -->
     <footer>
-      <h2><a href="#">WebStudio</a></h2>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer-content">
+        <h2>
+          <a href="#"
+            ><span class="web">WEB</span><span class="studio-text">STUDIO</span></a
+          >
+        </h2>
+        <p>
+          Increase the flow of customers and <br />
+          sales for your business with digital <br />
+          marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

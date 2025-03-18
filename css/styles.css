@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --main-color: #2e2f42;
+}
+
+body {
+    font-family: var(--font-family), sans-serif;
+    color: var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: var(--second-family);
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.logo {
+    font-family: var(--second-family);
+    font-size: 18px;
+    font-weight: bold;
+    color: #4d5ae5;
+}
+
+.studio {
+    font-family: var(--second-family);
+    color: #2e2f42;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+nav a {
+    color: #2e2f42;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    text-align: right;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.mail{
+    font-family: var(--font-family);
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.phone{
+    font-family: var(--font-family);
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-one {
+    background-color: #2e2f42;
+    text-align: center;
+    padding : 50px 0;
+}
+
+.section-one h2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.section-one button {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-one button:hover {
+    background-color: #404bbf;
+}
+.section-two {
+    font-family: var(--font-family);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 80px; 
+}
+
+.section-two div {
+    text-align: left;
+}
+
+.section-two h2 {
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+.section-two p {
+    font-size: 16px;
+    color: #434455;
+}
+
+.section-three {
+    background-color: #f4f4fd;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-three h2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #2e2f42;
+}
+
+.team-container {
+    display: flex;  
+    justify-content: center; 
+    gap: 20px;
+    list-style: none;
+}
+
+.portfolio-list {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: -20px;
+    list-style: none;
+}
+
+.portfolio-list li {
+    flex: 1 1 calc(33.33% - 20px); /* 3 sütun oluşturur */
+    text-align: center;
+}
+.team-member {
+    text-align: center; 
+    max-width: 200px; 
+}
+
+.team-member img {
+    width: 100%;
+}
+
+.section-four {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-four h2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #2e2f42;
+}
+
+.section-four img {
+    margin: 10px;
+}
+
+footer {
+    background-color: #2e2f42;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.web{
+        font-family: var(--second-family);
+        font-size: 18px;
+        font-weight: bold;
+        color: #4d5ae5;
+}
+
+.studio-text{
+    font-family: var(--second-family);
+    color: #f4f4fd;
+}
+
+footer p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #f4f4fd;
+    line-height: 24px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
