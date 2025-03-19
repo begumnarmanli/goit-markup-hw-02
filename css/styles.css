@@ -127,12 +127,23 @@ nav a {
 .section-two p {
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+    font-family: var(--font-family);
 }
 
 .section-three {
     background-color: #f4f4fd;
     text-align: center;
     padding: 50px 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-three p {
+    font-family: var(--font-family);
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .section-three h2 {
@@ -147,7 +158,6 @@ nav a {
     justify-content: center; 
     gap: 20px;
     list-style: none;
-    
 }
 
 .team-member {
@@ -167,8 +177,16 @@ nav a {
 }
 
 .section-four {
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
     padding: 50px 0;
+}
+
+.section-four p {
+    font-family: var(--font-family);
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .section-four h2 {
@@ -178,13 +196,6 @@ nav a {
     color: #2e2f42;
 }
 
-.section-three,
-.section-four {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align: center;
-}
 
 .team-container,
 .portfolio-list {
@@ -237,11 +248,11 @@ footer {
     color: #f4f4fd;
 }
 
-footer p {
+.footer p {
     font-family: var(--font-family);
     font-size: 16px;
     color: #f4f4fd;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .footer-content {
