@@ -4,69 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Homework_2_3</title>
+    <title>Homework_3</title>
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <h2>
-        <a href="#"
-          ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
-        >
-      </h2>
-      <nav>
-        <a href="#">Studio</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contacts</a>
-      </nav>
-      <div class="contact">
-        <p><a class="mail" href="info@devstudio.com">info@devstudio.com</a></p>
-        <p><a class="phone" href="+110001111111">+11 (000) 111-11-11</a></p>
+      <div class="container">
+      <div class="header-container">
+        <h2>
+          <a href="#">
+            <span class="logo">WEB</span><span class="studio">STUDIO</span>
+          </a>
+        </h2>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        
+        <div class="contact">
+          <p><a class="mail" href="info@devstudio.com">info@devstudio.com</a></p>
+          <p><a class="phone" href="+110001111111">+11 (000) 111-11-11</a></p>
+        </div>
       </div>
+    </div>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
       <section class="section-one">
-        <h2>
-          Effective Solutions <br> for Your Business
-        </h2>
-        <button type="button">Order Service</button>
+        <div class="container">
+        <div class="container">
+        <div class="section-one-content">
+          <h2>Effective Solutions <br> for Your Business</h2>
+          <button type="button">Order Service</button>
+        </div>
+      </div>
+    </div>
       </section>
 
       <section class="section-two">
-        <div>
+        <div class="container">
+        <div class="feature">
           <h2>Strategy</h2>
           <p>
             Our goal is to identify the business problem to walk away with the
             perfect and creative solution.
           </p>
         </div>
-        <div>
+        <div class="feature">
           <h2>Punctuality</h2>
           <p>
             Bring the key message to the brand's audience for the best price
             within the shortest possible time.
           </p>
         </div>
-        <div>
+        <div class="feature">
           <h2>Diligence</h2>
           <p>
             Research and confirm brands with the strongest digital growth
             opportunities and minimize risk.
           </p>
         </div>
-        <div>
+        <div class="feature">
           <h2>Technologies</h2>
           <p>
             Design practice focused on digital experiences. We bring forth a
             deep passion for problem-solving.
           </p>
         </div>
+      </div>
       </section>
 
       <section class="section-three">
+        <div class="container">
         <h2>Our Team</h2>
         <ul class="team-container">
           <li class="team-member">
@@ -90,9 +105,11 @@
             <p>UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
       
       <section class="section-four">
+        <div class="container">
         <h2>Our Portfolio</h2>
         <ul class="portfolio-list">
           <li><img src="./images/project_card_1.jpg" width="360" alt="Banking App" />
@@ -120,11 +137,13 @@
             <p>Marketing</p>
           </li>
         </ul>
+      </div>
       </section>
       
     </main>
     <!-- FOOTER -->
     <footer>
+      <div class="container">
       <div class="footer-content">
         <h2>
           <a href="#"
@@ -137,6 +156,7 @@
           marketing & growth solutions.
         </p>
       </div>
+    </div>
     </footer>
   </body>
 </html>
